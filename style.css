@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: orangered;
+}
+
+header {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro {
+    background-color: #111;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: orangered;
+    border: 3px solid orange;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s linear;
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: black;
+    border: 3px solid black;
+    transition: 0.5s linear;
+    border-radius: 15px;
+}
+
+.video-section {
+    margin-top: 30px;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.tg {
+    background-color: orangered;
+    color: black;
+    border: 3px solid rgb(17, 17, 17);
+    position: fixed;
+    bottom: 20px; /* Встановлюємо відступ знизу */
+    left: -70px; /* Спочатку схована за межами екрану */
+    transition: 0.5s linear;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tg:hover {
+    background-color: black;
+    color: orangered;
+    border: 3px solid orange;
+    left: -7px; /* При наведенні висувається */
+    box-shadow: 0 0 30px orange;
+}
+
+/* Посилання в кнопці Telegram */
+.tg a {
+    color: black; /* Колір тексту */
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.tg:hover a {
+    color: orangered; /* Колір змінюється при наведенні */
+}

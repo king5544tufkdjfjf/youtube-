@@ -2,12 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+        background-image: url('images/photo_2025-02-10_23-38-47.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     color: orangered;
 }
 
 header {
-    background-color: #111;
     text-align: center;
     padding: 20px;
 }
@@ -19,7 +21,6 @@ header {
 }
 
 .intro {
-    background-color: #111;
     padding: 30px;
     margin-top: 20px;
     border-radius: 10px;
@@ -35,6 +36,7 @@ header {
     text-decoration: none;
     border-radius: 5px;
     transition: 0.5s linear;
+    opacity: 0.5;
 }
 
 .btn:hover {
@@ -43,6 +45,7 @@ header {
     border: 3px solid black;
     transition: 0.5s linear;
     border-radius: 15px;
+    opacity: 1;
 }
 
 .video-section {
@@ -53,10 +56,14 @@ header {
     width: 100%;
     max-width: 600px;
     height: 315px;
+    border-radius: 30px;
+   opacity: 0.5;
+}
+.video iframe:hover {
+    opacity: 1;
 }
 
 footer {
-    background-color: black;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
@@ -72,6 +79,7 @@ footer {
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
+    opacity: 0.5;
 }
 
 .tg:hover {
@@ -80,6 +88,7 @@ footer {
     border: 3px solid orange;
     left: -7px; /* При наведенні висувається */
     box-shadow: 0 0 30px orange;
+    opacity: 1;
 }
 
 /* Посилання в кнопці Telegram */
@@ -93,3 +102,4 @@ footer {
 .tg:hover a {
     color: orangered; /* Колір змінюється при наведенні */
 }
+
